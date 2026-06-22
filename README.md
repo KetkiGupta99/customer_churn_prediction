@@ -347,11 +347,11 @@ Instead of treating all predicted churners equally, use probability-based interv
 
 # 🛠️ Tech Stack
 
-1. Language: Python
-2. Data Manipulation: pandas, numpy
-3.Statistical Analysis: scipy.stats (T-Tests, Chi-Square)
-4.Machine Learning: scikit-learn (Logistic Regression, Random Forest), xgboost
-5.Imbalanced Data Handling: imblearn (SMOTE)
-6.Visualizations: matplotlib, seaborn
+1. Language: Python.
+2. Data Manipulation: pandas, numpy.
+3.Statistical Analysis: scipy.stats (T-Tests, Chi-Square).
+4.Machine Learning: scikit-learn (Logistic Regression, Random Forest), xgboost.
+5.Imbalanced Data Handling: imblearn (SMOTE).
+6.Visualizations: matplotlib, seaborn.
 
 
