@@ -2,9 +2,9 @@
 
 ## 📌 Project Overview
 
-Customer churn is one of the most significant challenges businesses face, directly impacting revenue and growth. This project goes beyond building a high-accuracy machine learning model by connecting **data analysis, statistical validation, predictive modeling, and financial impact (ROI)** into a complete business solution.
+This project tackles one of the most critical challenges in business: Customer Churn. Rather than just building a predictive model with high accuracy, this project bridges the gap between raw data, statistical analysis, machine learning trade-offs, and real-world financial impact (ROI).
 
-Using the **Telco Customer Churn Dataset**, this project demonstrates how raw customer data can be transformed into actionable retention strategies through data science.
+The entire workflow is documented in a single Google Colab notebook, taking the raw Telco Customer Churn dataset and transforming it into a tiered business strategy.
 
 ---
 
@@ -16,11 +16,10 @@ Using the **Telco Customer Churn Dataset**, this project demonstrates how raw cu
 * Handle class imbalance effectively.
 * Optimize the Precision-Recall trade-off.
 * Measure the financial impact of churn predictions.
-* Design a business-driven retention strategy based on model outputs.
 
 ---
 
-## 🧠 Key Data Science Principles Applied
+## 🧠 Key Learnings & Project Philosophy
 
 ### 1. Don't Guess — Prove It
 
@@ -317,18 +316,6 @@ Customer predicted to churn but would have stayed anyway.
 
 ---
 
-## Key Discovery
-
-A blanket strategy of offering every predicted churner a **$20 discount** resulted in:
-
-❌ Negative ROI
-
-Reason:
-
-The cost of discounts given to false positives exceeded the revenue saved from true positives.
-
----
-
 # 🚀 Recommended Business Strategy
 
 Instead of treating all predicted churners equally, use probability-based interventions.
@@ -349,122 +336,22 @@ Instead of treating all predicted churners equally, use probability-based interv
 
 ---
 
-# 📂 Project Structure
+# 🚀 How to Run the Project
 
-```text
-Customer-Churn-Prediction/
-│
-├── data/
-│   └── Telco-Customer-Churn.csv
-│
-├── notebooks/
-│   └── Customer_Churn_Prediction.ipynb
-│
-├── images/
-│   ├── churn_distribution.png
-│   ├── feature_importance.png
-│   ├── confusion_matrix.png
-│   └── roc_curve.png
-│
-├── README.md
-└── requirements.txt
-```
-
----
-
-# ⚙️ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/customer-churn-prediction.git
-```
-
-Navigate to the project folder:
-
-```bash
-cd customer-churn-prediction
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# ▶️ How to Run
-
-1. Download the Telco Customer Churn dataset.
-2. Open the notebook in:
-
-   * Google Colab
-   * Jupyter Notebook
-3. Run cells sequentially.
-4. Explore:
-
-   * Statistical tests
-   * Model training
-   * Evaluation metrics
-   * ROI calculations
-   * Retention strategy recommendations
+1. Clone this repository or download the Google Colab Notebook (.ipynb).
+2. Download the Telco Customer Churn dataset (CSV).
+3. Open the notebook in Google Colab or Jupyter Notebook.
+4. Run the cells sequentially to watch the data transform from raw CSV into statistical proofs, machine learning models, and finally, a business ROI calculator.
 
 ---
 
 # 🛠️ Tech Stack
 
-### Programming Language
+1. Language: Python
+2. Data Manipulation: pandas, numpy
+3.Statistical Analysis: scipy.stats (T-Tests, Chi-Square)
+4.Machine Learning: scikit-learn (Logistic Regression, Random Forest), xgboost
+5.Imbalanced Data Handling: imblearn (SMOTE)
+6.Visualizations: matplotlib, seaborn
 
-* Python
 
-### Data Processing
-
-* Pandas
-* NumPy
-
-### Statistical Analysis
-
-* SciPy
-
-### Machine Learning
-
-* Scikit-Learn
-* XGBoost
-
-### Imbalanced Data Handling
-
-* Imbalanced-Learn (SMOTE)
-
-### Visualization
-
-* Matplotlib
-* Seaborn
-
----
-
-# 📌 Key Results
-
-✅ Identified statistically significant churn drivers
-
-✅ Built multiple machine learning models
-
-✅ Optimized Precision-Recall trade-offs
-
-✅ Handled class imbalance using SMOTE
-
-✅ Converted model outputs into financial ROI
-
-✅ Developed a practical tiered retention strategy
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-## ⭐ Final Takeaway
-
-This project demonstrates that successful data science is not just about building accurate models. The real value comes from combining **statistics, machine learning, and business decision-making** to create solutions that drive measurable financial impact.
